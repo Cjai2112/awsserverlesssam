@@ -1,0 +1,8 @@
+%YAML 1.1
+---
+Resources:
+  TableWithSSE:
+    Type: AWS::Serverless::SimpleTable
+    Properties:
+      SSESpecification:
+        SSEEnabled: true
